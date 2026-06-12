@@ -1,3 +1,9 @@
-import greeting from "./greeting.js";
+import "./styles.css";
+import { generateHome } from "./home.js";
+import { generateBody } from "./menu.js";
 
-console.log(greeting);
+const homeBtn = document.querySelector("#home");
+homeBtn.addEventListener("click",generateHome);
+
+const menuBtn = document.querySelector("#menu");
+menuBtn.addEventListener("click",generateBody);
