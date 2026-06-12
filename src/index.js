@@ -7,3 +7,5 @@ homeBtn.addEventListener("click",generateHome);
 
 const menuBtn = document.querySelector("#menu");
 menuBtn.addEventListener("click",generateBody);
+
+generateHome();
